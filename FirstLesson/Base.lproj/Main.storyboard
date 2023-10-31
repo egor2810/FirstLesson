@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-U4-JW3">
-                                <rect key="frame" x="16" y="79.000000000000028" width="398" height="408.66666666666674"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GhV-U4-JW3" userLabel="First">
+                                <rect key="frame" x="16" y="79.000000000000028" width="398" height="391.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7q-kV-p6V">
-                                <rect key="frame" x="16" y="503.66666666666674" width="398" height="408.33333333333326"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7q-kV-p6V" userLabel="Second">
+                                <rect key="frame" x="16" y="486.66666666666674" width="398" height="391.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
@@ -32,9 +32,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n7q-kV-p6V" secondAttribute="trailing" constant="16" id="6L8-UT-nwL"/>
                             <constraint firstItem="n7q-kV-p6V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8LK-a4-owI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GhV-U4-JW3" secondAttribute="trailing" constant="16" id="FBq-Yt-FL0"/>
-                            <constraint firstAttribute="bottom" secondItem="n7q-kV-p6V" secondAttribute="bottom" constant="20" id="I9G-rm-OZO"/>
-                            <constraint firstItem="GhV-U4-JW3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LfG-Ya-f4y"/>
-                            <constraint firstItem="n7q-kV-p6V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k9c-wN-wGe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n7q-kV-p6V" secondAttribute="bottom" constant="20" id="I9G-rm-OZO"/>
                             <constraint firstItem="GhV-U4-JW3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="r76-Uh-CwQ"/>
                             <constraint firstItem="n7q-kV-p6V" firstAttribute="height" secondItem="GhV-U4-JW3" secondAttribute="height" id="uE5-cQ-HIF"/>
                             <constraint firstItem="GhV-U4-JW3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zj4-tr-cs2"/>
@@ -51,10 +49,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
